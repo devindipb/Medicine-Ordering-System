@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="Feedback.css">
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+
+	<br><br>
+	<h3>Feedback Form</h3>
+	<div class="contact-box">
+		<form action="FeedSaveServlet" method="POST">
+
+			<input type="text" class="input-field" placeholder="name" name="name">
+			<input type="email" class="input-field" placeholder="email" name="email">
+			<input type="text" class="input-field" placeholder="phonenumber" name="phonenumber">
+			<textarea type="text" class="input-field textarea-field" placeholder="message" name="message">
+
+            </textarea>
+
+			<button type="submit" class="btn" value="click"
+				onclick="alert('Thank you for your Feedback');">Submit</button>
+		</form>
+		<a href="FeedViewServlet">view</a>
+	</div>
+
+	
+</body>
+
+</html>

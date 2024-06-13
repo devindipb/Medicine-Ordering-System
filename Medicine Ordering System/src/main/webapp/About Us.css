@@ -1,0 +1,244 @@
+
+ 
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:rgb(128, 255, 255);
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 100px;
+}
+*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* Style the navigation bar */
+nav {
+    background-color: white; /* Background color for the navigation bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+/* Style the logo */
+.logo img {
+    width: 100px;
+    height: 50px;
+}
+
+/* Style the navigation links */
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style the "Sign In" button */
+.button {
+    background-color:rgb(34, 238, 218); /* Change to your desired color */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: whitesmoke; /* Change to a slightly darker shade for hover effect */
+}
+li a:hover{
+    background:white;
+    text-transform: uppercase;
+    
+}
+li{
+    float:right;
+}
+li {
+    margin-right: 50px; /* Increase the right margin for more space */
+}
+
+
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+li{
+    padding: 2px;
+}
+.checked{
+    color: yellow;
+}
+
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.Login{
+    background: transparent;
+    border: none;
+}
+
+.SignUp{
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.AddtoCart{
+    background-color:aqua;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.heading
+{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.heading h1
+{
+    font-size: 50px;
+    color:brown;
+    margin-bottom: 10px;
+
+}
+
+.heading p
+{
+    font-size: 25px;
+    color:#000000;
+    margin-bottom: 50px;
+
+}
+
+.About-Us
+{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+
+}
+
+.About-Us img
+{
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+
+}
+
+.content
+{
+    padding: 35px;
+
+}
+
+.content h2
+{
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px;
+
+}
+
+.content p
+{
+    color:#000000;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 15px 0px;
+
+}
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #484545;
+}
+.footerContainer{
+    width:100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display:flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size:2em;
+    color:black;
+    opacity:0.9;
+}
+.socialIcons a:hover{
+    background-color:#111;
+    transition:0.5s;
+}
+.socialIcons a:hover i{
+    color:white;
+    transition:0.5s;
+}
+.footerNav{
+    margin:30px 0;
+}
+.footerNav {
+    display:flex;
+    justify-content: center;
+}
+.footerNav  a{
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-size:1.3em;
+    opacity:0.7;
+    transition:0.5s;
+}
+.footerNav a:hover{
+    opacity:1;
+}
+
